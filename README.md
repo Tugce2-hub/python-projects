@@ -1,11 +1,36 @@
-# Python Basics
+# Python Projects Portfolio
 
-This section contains Python practice examples covering fundamental programming concepts.
+Welcome to my Python learning and development portfolio!
 
-## Topics
-- Variables
-- Data types
-- Operators
+This repository contains my Python practice projects, coding exercises, and beginner-level applications. It documents my progress in learning Python and developing problem-solving skills through hands-on practice.
 
-## Purpose
-To demonstrate fundamental Python programming concepts through practical examples and exercises.
+## Repository Structure
+
+| Folder | Topics |
+|---|---|
+| `01-basics` | Variables, data types, operators, user input |
+| `02-conditionals` | If, elif, else, logical operators |
+| `03-loops` | For loops, while loops, break, continue |
+| `04-functions` | Functions, parameters, return values |
+| `05-data-structures` | Lists, dictionaries, tuples, sets |
+| `06-mini-games` | Number Guessing Game, Rock Paper Scissors, Simple Calculator |
+| `07-practice` | Even/Odd Checker, Factorial Calculator, Prime Number Checker, Word Counter |
+
+## Technologies
+
+- Python 3
+- Git
+- GitHub
+
+## Learning Goals
+
+- Strengthen Python programming fundamentals
+- Improve logical thinking and problem-solving skills
+- Practice writing clean and readable code
+- Develop small applications through hands-on exercises
+- Build a foundation for data analysis and automation
+
+## About This Repository
+
+This is an evolving portfolio. New exercises and projects will be added as I continue learning and improving my programming skills.
+
