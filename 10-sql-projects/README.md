@@ -1,31 +1,66 @@
-# SQL Projects Portfolio
+# SQL Customer Sales Analysis
 
-This section contains practical SQL projects developed to improve database management and data analysis skills.
+A practical SQL project focused on relational database management and customer sales analysis using SQLite.
 
-## Planned Topics
+## Project Overview
 
-- SQL fundamentals
-- SELECT, WHERE and ORDER BY
-- Aggregate functions
-- GROUP BY and HAVING
-- JOIN operations
-- Subqueries
-- Data analysis using SQL
+This project explores customer and order data using SQL queries. It demonstrates how relational tables can be connected to analyze customer spending and product revenue.
+
+## Database Structure
+
+**Customers Table**
+- Customer ID
+- Name
+- City
+- Age
+
+**Orders Table**
+- Order ID
+- Customer ID
+- Product
+- Amount
+
+## SQL Concepts
+
+- CREATE TABLE
+- INSERT INTO
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- INNER JOIN
+- SUM()
+- AVG()
+- COUNT()
+
+## Analysis
+
+- Customer information retrieval
+- Customer spending analysis
+- Total revenue by product
+- Average order amount
+- Customer ranking by total spending
 
 ## Technologies
 
 - SQL
 - SQLite
-- DB Browser for SQLite
+- Python
+- Google Colab
+- GitHub
+
+## Project Files
+
+- `customer_sales_analysis.sql` – Database creation, sample data, and analysis queries.
 
 ## Learning Objectives
 
-- Understand relational databases
-- Write SQL queries to retrieve and filter data
-- Analyze datasets using aggregate functions
-- Combine data from multiple tables
-- Solve practical business data problems
+- Understand relational database structures
+- Write SQL queries
+- Combine related tables using JOIN
+- Analyze business data
+- Calculate key business metrics
 
 ## Project Status
 
-In progress.
+Initial database and customer sales analysis completed.
