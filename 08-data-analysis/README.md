@@ -56,3 +56,9 @@ The dataset contains 8 products from 3 categories:
 ## Status
 
 Completed initial analysis and visualization exercises. Further improvements will be added as the project develops.
+
+## Visualization
+
+The chart below shows total revenue by product category.
+
+![Revenue by Category](sales_by_category.png)
