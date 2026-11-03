@@ -1,18 +1,22 @@
 # Customer Data Analysis
 
-A beginner-level data analysis project focused on exploring customer demographics and spending behavior using Python.
+A customer data analysis project developed using Python, Pandas, and Matplotlib.
 
 ## Project Overview
 
-This project analyzes a sample customer dataset to identify demographic patterns and understand customer spending behavior.
+This project explores a sample customer dataset to identify demographic patterns and understand annual spending behavior.
 
-## Planned Analysis
+## Dataset
 
-- Customer age distribution
-- Customer count by gender
-- Customer distribution by city
-- Average customer spending
-- Customer segmentation
+The dataset contains 15 sample customers and includes:
+
+- Customer ID
+- Age
+- Gender
+- City
+- Annual Spending
+
+All customer records are synthetic and created for educational purposes.
 
 ## Technologies
 
@@ -21,14 +25,36 @@ This project analyzes a sample customer dataset to identify demographic patterns
 - Matplotlib
 - Google Colab
 
+## Analysis
+
+- Customer distribution by gender
+- Customer distribution by city
+- Average age by gender
+- Average annual spending by city
+- Customer age distribution
+
+## Visualizations
+
+### Customer Count by City
+
+![Customers by City](customers_by_city.png)
+
+### Average Annual Spending by City
+
+![Average Spending by City](average_spending_by_city.png)
+
+### Customer Age Distribution
+
+![Customer Age Distribution](customer_age_distribution.png)
+
 ## Learning Objectives
 
-- Practice data cleaning and exploration
-- Analyze demographic data
-- Use grouping and aggregation
-- Calculate basic business metrics
-- Create meaningful visualizations
+- Explore and summarize datasets using Pandas
+- Group and analyze customer data
+- Calculate averages and frequency distributions
+- Create charts using Matplotlib
+- Communicate findings through data visualization
 
 ## Project Status
 
-In progress.
+Completed initial customer data analysis and visualization exercises.
