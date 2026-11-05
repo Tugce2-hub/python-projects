@@ -2,7 +2,7 @@
 
 Interactive Power BI dashboard analyzing customer demographics and spending behavior across cities.
 
-![Dashboard](dashboard.png)
+<img width="1277" height="696" alt="image" src="https://github.com/user-attachments/assets/59965f5e-968f-45a7-8d09-e283948cfd42" />
 
 ## Dataset
 Small sample dataset of 15 customers (`customers.csv`) created for practice:
