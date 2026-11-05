@@ -1,66 +1,35 @@
-# SQL Customer Sales Analysis
+# Customer Analytics Dashboard (Power BI)
 
-A practical SQL project focused on relational database management and customer sales analysis using SQLite.
+Interactive Power BI dashboard analyzing customer demographics and spending behavior across cities.
 
-## Project Overview
+![Dashboard](dashboard.png)
 
-This project explores customer and order data using SQL queries. It demonstrates how relational tables can be connected to analyze customer spending and product revenue.
+## Dataset
+Small sample dataset of 15 customers (`customers.csv`) created for practice:
 
-## Database Structure
+| Column | Description |
+|---|---|
+| Customer_ID | Unique customer ID |
+| Age | Customer age |
+| Gender | Female / Male |
+| City | Istanbul, Ankara, Izmir, Bursa |
+| Annual_Spending | Annual spending amount |
 
-**Customers Table**
-- Customer ID
-- Name
-- City
-- Age
+## Dashboard Contents
+- **KPI cards:** Total Customers, Total Spending, Avg Spending, Avg Age
+- **Total Spending by City:** column chart
+- **Age vs Annual Spending:** scatter plot (one point per customer)
+- **Avg Spending by Gender:** bar chart
+- **Slicers:** City and Gender for interactive filtering
 
-**Orders Table**
-- Order ID
-- Customer ID
-- Product
-- Amount
+## Key Findings
+- 15 customers with a total annual spending of 258,000 (average 17,200) and an average age of about 32.5.
+- Istanbul has the highest total spending (about 75,000); Izmir has the lowest (about 55,000).
+- Spending rises clearly with age: the youngest customers (early 20s) spend around 9,000-12,000, while customers in their 40s spend 22,000-25,000.
+- Average spending is almost the same for male and female customers (about 17,000 each).
 
-## SQL Concepts
+## Tools
+Power BI Desktop
 
-- CREATE TABLE
-- INSERT INTO
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- INNER JOIN
-- SUM()
-- AVG()
-- COUNT()
-
-## Analysis
-
-- Customer information retrieval
-- Customer spending analysis
-- Total revenue by product
-- Average order amount
-- Customer ranking by total spending
-
-## Technologies
-
-- SQL
-- SQLite
-- Python
-- Google Colab
-- GitHub
-
-## Project Files
-
-- `customer_sales_analysis.sql` – Database creation, sample data, and analysis queries.
-
-## Learning Objectives
-
-- Understand relational database structures
-- Write SQL queries
-- Combine related tables using JOIN
-- Analyze business data
-- Calculate key business metrics
-
-## Project Status
-
-Initial database and customer sales analysis completed.
+## Note
+This project uses a small sample dataset, so the findings illustrate the analysis approach rather than statistically reliable conclusions.
