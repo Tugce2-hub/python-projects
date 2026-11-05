@@ -1,4 +1,4 @@
-[# Customer Sales Analysis (SQL)
+# Customer Sales Analysis (SQL)
 
 ## Project Overview
 
@@ -78,4 +78,3 @@ This project demonstrates practical SQL skills in relational database management
 ## Project Status
 
 Completed
-](https://github.com/Tugce2-hub/python-projects/blob/main/10-sql-projects/README.md)
