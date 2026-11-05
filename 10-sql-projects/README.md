@@ -1,4 +1,3 @@
-
 # Customer Sales Analysis (SQL)
 
 ## Project Overview
