@@ -1,4 +1,3 @@
-
 -- CUSTOMER SALES ANALYSIS PROJECT
 -- Database: SQLite
 
