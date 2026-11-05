@@ -55,7 +55,9 @@ The dataset contains 8 products from 3 categories:
 
 ## Status
 
-Completed initial analysis and visualization exercises. Further improvements will be added as the project develops.
+Completed
+
+This project demonstrates fundamental data analysis skills using Python, Pandas, and Matplotlib, including data exploration, revenue calculation, category analysis, and visualization.
 
 ## Visualization
 
